@@ -1,0 +1,155 @@
+T9B68 000:181.469   SEGGER J-Link V7.22b Log File
+T9B68 000:181.556   DLL Compiled: Jun 17 2021 17:22:49
+T9B68 000:181.559   Logging started @ 2024-01-28 04:58
+T9B68 000:181.561 - 181.563ms
+T9B68 000:181.568 JLINK_SetWarnOutHandler(...)
+T9B68 000:181.572 - 0.005ms
+T9B68 000:181.576 JLINK_OpenEx(...)
+T9B68 000:183.697   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T9B68 000:184.378   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T9B68 000:184.519   Decompressing FW timestamp took 111 us
+T9B68 000:191.613   Hardware: V1.00
+T9B68 000:191.629   S/N: 4294967295
+T9B68 000:191.639   OEM: SEGGER
+T9B68 000:191.643   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T9B68 000:193.363   TELNET listener socket opened on port 19021
+T9B68 000:193.623   WEBSRV Starting webserver
+T9B68 000:193.787   WEBSRV Webserver running on local port 19080
+T9B68 000:193.797 - 12.223ms returns "O.K."
+T9B68 000:193.813 JLINK_GetEmuCaps()
+T9B68 000:193.818 - 0.007ms returns 0xB8EA5A33
+T9B68 000:193.830 JLINK_TIF_GetAvailable(...)
+T9B68 000:194.201 - 0.378ms
+T9B68 000:194.213 JLINK_SetErrorOutHandler(...)
+T9B68 000:194.216 - 0.004ms
+T9B68 000:194.231 JLINK_ExecCommand("ProjectFile = "D:\2024-work\750-demo\750test\MDK-ARM\JLinkSettings.ini"", ...). 
+T9B68 000:204.850   Device "STM32H750VB" selected.
+T9B68 000:205.177 - 10.954ms returns 0x00
+T9B68 000:205.198 JLINK_ExecCommand("Device = STM32H750VBTx", ...). 
+T9B68 000:210.124   Device "STM32H750VB" selected.
+T9B68 000:210.351 - 5.151ms returns 0x00
+T9B68 000:210.364 JLINK_GetHardwareVersion()
+T9B68 000:210.367 - 0.004ms returns 10000
+T9B68 000:210.371 JLINK_GetDLLVersion()
+T9B68 000:210.374 - 0.004ms returns 72202
+T9B68 000:210.377 JLINK_GetOEMString(...)
+T9B68 000:210.381 JLINK_GetFirmwareString(...)
+T9B68 000:210.386 - 0.006ms
+T9B68 000:210.392 JLINK_GetDLLVersion()
+T9B68 000:210.395 - 0.004ms returns 72202
+T9B68 000:210.398 JLINK_GetCompileDateTime()
+T9B68 000:210.401 - 0.004ms
+T9B68 000:210.406 JLINK_GetFirmwareString(...)
+T9B68 000:210.408 - 0.004ms
+T9B68 000:210.412 JLINK_GetHardwareVersion()
+T9B68 000:210.415 - 0.003ms returns 10000
+T9B68 000:210.419 JLINK_GetSN()
+T9B68 000:210.422 - 0.005ms returns -1
+T9B68 000:210.426 JLINK_GetOEMString(...)
+T9B68 000:210.437 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T9B68 000:212.047 - 1.615ms returns 0x00
+T9B68 000:212.057 JLINK_HasError()
+T9B68 000:212.071 JLINK_SetSpeed(5000)
+T9B68 000:212.322 - 0.253ms
+T9B68 000:212.572 JLINK_HasError()
+T9B68 000:212.578 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T9B68 000:212.581 - 0.004ms returns JLINKARM_RESET_TYPE_NORMAL
+T9B68 000:212.585 JLINK_Reset()
+T9B68 000:214.046   Found SW-DP with ID 0x6BA02477
+T9B68 000:243.923   Found SW-DP with ID 0x6BA02477
+T9B68 000:247.223   Old FW that does not support reading DPIDR via DAP jobs
+T9B68 000:248.375   DPv0 detected
+T9B68 000:248.384   Scanning AP map to find all available APs
+T9B68 000:250.575   AP[3]: Stopped AP scan as end of AP map has been reached
+T9B68 000:250.581   AP[0]: AHB-AP (IDR: 0x84770001)
+T9B68 000:250.585   AP[1]: AHB-AP (IDR: 0x84770001)
+T9B68 000:250.589   AP[2]: APB-AP (IDR: 0x54770002)
+T9B68 000:250.594   Iterating through AP map to find AHB-AP to use
+T9B68 000:252.435   AP[0]: Core found
+T9B68 000:252.441   AP[0]: AHB-AP ROM base: 0xE00FE000
+T9B68 000:253.429   CPUID register: 0xE00FE003. Implementer code: 0xE0 (???)
+T9B68 000:253.443   Unknown core, assuming Cortex-M0
+T9B68 000:253.447   Found Cortex-M0 r0p3, Big endian.
+T9B68 000:354.490   Identified core does not match configuration. (Found: Cortex-M0, Configured: Cortex-M7)
+T9B68 000:355.935   -- Max. mem block: 0x00002340
+T9B68 000:356.331   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T9B68 000:357.471   CPU_ReadMem(4 bytes @ 0xE0002000)
+T9B68 000:358.694   FPUnit: 96 code (BP) slots and 0 literal slots
+T9B68 000:358.699   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T9B68 000:359.561   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T9B68 000:360.371   CPU_ReadMem(4 bytes @ 0xE0001000)
+T9B68 000:361.117   CPU_WriteMem(4 bytes @ 0xE0001000)
+T9B68 000:361.953   CoreSight components:
+T9B68 000:361.972   ROMTbl[0] @ E00FE000
+T9B68 000:361.978   CPU_ReadMem(64 bytes @ 0xE00FE000)
+T9B68 000:363.273   CPU_ReadMem(32 bytes @ 0xC01FCFE0)
+T9B68 000:364.566   ROMTbl[0][0]: C01FC000, CID: 00000000, PID: 00000000 ???
+T9B68 000:364.572   CPU_ReadMem(32 bytes @ 0xE00FFFE0)
+T9B68 000:366.161   ROMTbl[0][1]: E00FF000, CID: 00000000, PID: 00000000 ???
+T9B68 000:366.166   CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T9B68 000:367.761   ROMTbl[0][2]: E0041000, CID: 00000000, PID: 00000000 ???
+T9B68 000:367.766   CPU_ReadMem(32 bytes @ 0xE0043FE0)
+T9B68 000:369.371   ROMTbl[0][3]: E0043000, CID: 00000000, PID: 00000000 ???
+T9B68 000:369.423   CPU is running
+T9B68 000:369.431   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T9B68 000:370.935   CPU is running
+T9B68 000:370.943   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T9B68 000:372.518   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T9B68 000:372.879   Reset: Reset device via AIRCR.SYSRESETREQ.
+T9B68 000:372.884   CPU is running
+T9B68 000:372.889   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T9B68 000:426.359   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T9B68 000:427.997   Reset: SYSRESETREQ has confused core.
+T9B68 000:429.373   Found SW-DP with ID 0x6BA02477
+T9B68 000:431.757   Old FW that does not support reading DPIDR via DAP jobs
+T9B68 000:432.777   DPv0 detected
+T9B68 000:432.808   AP map detection skipped. Manually configured AP map found.
+T9B68 000:432.813   AP[0]: AHB-AP (IDR: Not set)
+T9B68 000:434.486   AP[0]: Core found
+T9B68 000:434.491   AP[0]: AHB-AP ROM base: 0xE00FE000
+T9B68 000:435.404   CPUID register: 0xE00FE003. Implementer code: 0xE0 (???)
+T9B68 000:435.409   Unknown core, assuming Cortex-M0
+T9B68 000:435.413   Found Cortex-M0 r0p3, Big endian.
+T9B68 000:535.857   Reset: Using fallback: Reset pin.
+T9B68 000:535.881   CPU is running
+T9B68 000:535.890   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T9B68 000:536.810   CPU is running
+T9B68 000:536.821   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T9B68 000:537.640   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T9B68 000:537.650   Reset: Reset device via reset pin
+T9B68 000:660.367   Reset: VC_CORERESET did not halt CPU. (Debug logic also reset by reset pin?).
+T9B68 000:660.383   Reset: Reconnecting and manually halting CPU.
+T9B68 000:661.649   Found SW-DP with ID 0x6BA02477
+T9B68 000:663.941   Old FW that does not support reading DPIDR via DAP jobs
+T9B68 000:665.218   DPv0 detected
+T9B68 000:665.223   AP map detection skipped. Manually configured AP map found.
+T9B68 000:665.228   AP[0]: AHB-AP (IDR: Not set)
+T9B68 000:667.202   AP[0]: Core found
+T9B68 000:667.207   AP[0]: AHB-AP ROM base: 0xE00FE000
+T9B68 000:668.369   CPUID register: 0xE00FE003. Implementer code: 0xE0 (???)
+T9B68 000:668.377   Unknown core, assuming Cortex-M0
+T9B68 000:668.382   Found Cortex-M0 r0p3, Big endian.
+T9B68 000:972.534   T-bit of XPSR is 0 but should be 1. Changed to 1.
+T9B68 000:972.561   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T9B68 000:979.445   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T9B68 000:980.620   CPU_WriteMem(4 bytes @ 0xE0002000)
+T9B68 000:981.832   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T9B68 000:983.050   CPU_ReadMem(4 bytes @ 0xE0001000)
+T9B68 000:984.283   CPU_WriteMem(4 bytes @ 0xE0001000)
+T9B68 000:985.406 - 772.827ms
+T9B68 000:985.424 JLINK_GetId()
+T9B68 000:985.910 - 0.493ms returns 0x6BA02477
+T9B68 000:990.859 JLINK_GetFirmwareString(...)
+T9B68 000:990.873 - 0.015ms
+T772C 009:763.139 Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T772C 009:763.313 Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T772C 010:064.526 Failed to connect to J-Link GUI Server.
+T3B48 114:272.027     JLINK_RTTERMINAL_Control(Cmd = JLINKARM_RTTERMINAL_CMD_STOP)
+T3B48 114:272.061     - 0.038ms returns 0x01
+T9B68 518:502.280 JLINK_Close()
+T9B68 518:508.770   CPU_ReadMem(4 bytes @ 0xE0001000)
+T9B68 518:509.889   CPU_WriteMem(4 bytes @ 0xE0001000)
+T9B68 518:511.108   CPU_WriteMem(4 bytes @ 0xE0001004)
+T9B68 518:743.970 - 241.707ms
+T9B68 518:744.034   
+T9B68 518:744.039   Closed
